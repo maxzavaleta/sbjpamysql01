@@ -25,7 +25,8 @@ import pe.maxz.spjpamysql.repository.ClientRepository;
 
 @Controller
 @RestController
-@RequestMapping("/clients")
+@RequestMapping("/client/v1/clients")
+//api-name/api-version/api-resource
 public class ClientController {
 	@Autowired
 	ClientRepository clientRepository;
